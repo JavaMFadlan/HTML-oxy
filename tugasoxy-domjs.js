@@ -28,7 +28,7 @@ function login(){
         window.location.href = 'tugasoxy-biodata.html';
     }
     else if(username == "" || password == ""){
-        alert("Username Atau Password Tak Boleh Kosong!!!")
+        alert("Username Atau Password Tak Boleh Kosong!!")
     }
     else if (username != x || password != y){
         alert("Salah Username Atau Password");
