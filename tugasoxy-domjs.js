@@ -16,10 +16,6 @@ function register(){
         localStorage.setItem('password',password.value);
     }
 }
-function tampil(){
-    var x = JSON.parse(localStorage.getItem("data")).username;
-    document.getElementById("demo").innerHTML = x;
-}
 
 function login(){
     const username = document.forms["forms"]["username"].value;
